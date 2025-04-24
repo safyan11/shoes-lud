@@ -38,12 +38,10 @@
 <section class="min-h-[700px] px-4 sm:px-6 md:px-10 bg-cover relative overflow-hidden" style="background-image: url(./img/herobg1.png);">
   
   <!-- 🔁 Vertical Animated Background Text -->
-  <div class="absolute inset-0 -z-0 flex justify-center items-center overflow-hidden ">
+  <div class="absolute inset-0 flex justify-center items-center overflow-hidden z-0">
     <div class="h-[960px] w-[100%] text-[80px] sm:text-[100px] md:text-[120px] font-extrabold leading-none tracking-widest md:text-white text-gray-100 lg:text-center text-end">
-      <div class="flex flex-col animate-scrollVertical  mr-12 lg:mr-24 ">
-        <!-- Original content -->
+      <div class="flex flex-col animate-scrollVertical mr-12 lg:mr-24">
         <span>U</span><span>L</span><span>T</span><span>I</span><span>M</span><span>A</span><span>T</span><span>E</span>
-        <!-- Duplicate for seamless loop -->
         <span>U</span><span>L</span><span>T</span><span>I</span><span>M</span><span>A</span><span>T</span><span>E</span>
       </div>
     </div>
@@ -93,34 +91,28 @@
   </nav>
 
   <!-- Hero Section -->
-  <div class="flex flex-col-reverse lg:flex-row items-center justify-between gap-10 px-4   pt-16 sm:pt-20 w-full">
-  
-    <!-- Left Content -->
-    <div class="w-full lg:w-1/2 text-center lg:text-start px-2 sm:px-4">
-      <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-8xl font-semibold leading-tight text-black">
-        Find Your<br>Sole Mate<br>With Us
-      </h1>
-      <p class="text-sm sm:text-base md:text-lg lg:text-xl text-[#000000] py-4">
-        Lorem ipsum dolor sit amet, consectetur <br class="hidden sm:block" />
-        adipiscing elit, sed do eiusmod.
-      </p>
-      <div>
-        <button class="px-6 sm:px-8 py-3 sm:py-4 bg-black hover:bg-transparent text-white hover:text-black text-base sm:text-lg rounded  transition">
-          Shop Now
-        </button>
-      </div>
-    </div>
-  
-    <!-- Right Image -->
-    <div class="w-full lg:w-1/2 flex justify-center">
-      <img
-        src="./img/heroshoes.png"
-        alt="Image"
-        class="hover-image object-cover"
-        id="tiltImage"
-      />
+<div class="flex flex-col-reverse lg:flex-row items-center justify-between gap-10 px-4 pt-16 sm:pt-20 w-full relative z-10">
+  <!-- Left Content -->
+  <div class="w-full lg:w-1/2 text-center lg:text-start px-2 sm:px-4">
+    <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-8xl font-semibold leading-tight text-black">
+      Find Your<br>Sole Mate<br>With Us
+    </h1>
+    <p class="text-sm sm:text-base md:text-lg lg:text-xl text-[#000000] py-4">
+      Lorem ipsum dolor sit amet, consectetur <br class="hidden sm:block" />
+      adipiscing elit, sed do eiusmod.
+    </p>
+    <div>
+      <button class="px-6 sm:px-8 py-3 sm:py-4 bg-black hover:bg-transparent hover:border hover:border-black text-white hover:text-black text-base sm:text-lg rounded transition">
+        Shop Now
+      </button>
     </div>
   </div>
+
+  <!-- Right Image -->
+  <div class="w-full lg:w-1/2 flex justify-center">
+    <img src="./img/heroshoes.png" alt="Image" class="hover-image object-cover" id="tiltImage" />
+  </div>
+</div>
 
 </section>
   <!-- slider section  -->
@@ -154,7 +146,7 @@
       <p class="text-sm text-gray-500 mb-2 border-l-4 border-black pl-2">Our Trending Shoe</p>
       <h2 class="text-3xl font-bold mb-4 leading-tight">Most Popular<br>Products</h2>
       <p class="text-gray-600 mb-6 text-sm">Lorem Ipsum Dolor Sit Amet, Consectetur Adipisicing Elit,</p>
-      <button class="bg-black text-white px-6 py-2 rounded shadow hover:bg-gray-800 transition">Explore</button>
+      <button class="bg-black text-white px-6 py-2 rounded shadow hover:bg-transparent hover:text-black hover:border hover:border-black transition">Explore</button>
     </div>
 
     <!-- Right Swiper Section -->
