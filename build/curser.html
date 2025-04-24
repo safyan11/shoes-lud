@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Customer Reviews Slider</title>
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
+
+ 
+</head>
+<body class="bg-white">
+
+  <!-- Customer Review Section -->
+  <section class="py-12">
+    <h2 class="text-center text-2xl font-semibold mb-10 relative">
+      <span class="inline-block px-4 relative">
+        <span class="absolute top-1/2 left-0 w-8 border-t border-black transform -translate-y-1/2"></span>
+        Customer Review
+        <span class="absolute top-1/2 right-0 w-8 border-t border-black transform -translate-y-1/2"></span>
+      </span>
+    </h2>
+
+    <div class="swiper mySwiper max-w-6xl mx-auto px-4 swiper-container">
+      <div class="swiper-wrapper gap-20">
+        <!-- Slide 1 -->
+        <div class="swiper-slide">
+          <div class="bg-gray-100  rounded-xl shadow p-6 flex lg:flex-row flex-col items-start gap-4 swiper-slide-container">
+            <div>
+              <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Ava Joshi"
+              class="w-16 h-16 rounded-full object-cover" />
+            </div>
+            <div >
+              <h3 class="font-semibold text-lg">Ava Joshi</h3>
+              <div class="text-yellow-400 mb-1">★★★★☆</div>
+              <p class="text-sm text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="swiper-slide">
+          <div class="bg-gray-100  rounded-xl shadow p-6 flex lg:flex-row flex-col items-start gap-4 swiper-slide-container">
+            <div>
+              <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Ava Joshi"
+              class="w-16 h-16 rounded-full object-cover" />
+            </div>
+            <div >
+              <h3 class="font-semibold text-lg">Ava Joshi</h3>
+              <div class="text-yellow-400 mb-1">★★★★☆</div>
+              <p class="text-sm text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- slider 3  -->
+        <div class="swiper-slide">
+          <div class="bg-gray-100  rounded-xl shadow p-6 flex lg:flex-row flex-col items-start gap-4 swiper-slide-container">
+            <div>
+              <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Ava Joshi"
+              class="w-16 h-16 rounded-full object-cover" />
+            </div>
+            <div >
+              <h3 class="font-semibold text-lg">Ava Joshi</h3>
+              <div class="text-yellow-400 mb-1">★★★★☆</div>
+              <p class="text-sm text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- slider4  -->
+        <div class="swiper-slide">
+          <div class="bg-gray-100  rounded-xl shadow p-6 flex lg:flex-row flex-col items-start gap-4 swiper-slide-container">
+            <div>
+              <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Ava Joshi"
+              class="w-16 h-16 rounded-full object-cover" />
+            </div>
+            <div >
+              <h3 class="font-semibold text-lg">Ava Joshi</h3>
+              <div class="text-yellow-400 mb-1">★★★★☆</div>
+              <p class="text-sm text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- More Slides -->
+      </div>
+
+      <!-- Pagination Dots -->
+      <div class="swiper-pagination mt-6 pt-10"></div>
+    </div>
+  </section>
+
+
+
+
+
+  <script src="//code.jquery.com/jquery-2.2.4.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.min.js"></script>
+
+  <script>var swiper = new Swiper('.swiper-container', {
+    pagination: '.swiper-pagination',
+    slidesPerView: 2,
+    centeredSlides: true,
+    paginationClickable: true
+  });</script>
+
+
+  
+</body>
+</html>
+ 
